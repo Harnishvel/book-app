@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar{
+    background-color: orange;
+    padding: 10px;
+}
+.container{
+    padding: 20px;
+}
+.book-container{
+    background-color: black;
+    text-align: center;
+    width: 30%;
+    color: antiquewhite;
+    border-radius: 10px ;
+    padding: 20px;
+    margin: 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+.book-container h2{
+    color: orange;
+}
+.book-container button{
+    background-color: red;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    border-color: aliceblue;
+}
+.book-container p{
+    padding-bottom: 10px;
+}
+.book-container h5{
+    padding: 10px;
+}
+.add-button{
+    border-radius: 100%;
+    padding: 10px 10px 10px 10px;
+    background-color: orange;
+    font-size: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: none;
+}
+.popup-overlay{
+    background-color: black;
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.popup-box{
+    background-color: orange;
+    padding: 40px;
+    border-radius: 10px;
+    width: 40%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 1;
+    display: none;
+
+
+
+}
+.popup-box input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    color: black;
+    margin: 5px;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: solid black 2px;
+}
+.popup-box button{
+    border-radius: 10px;
+    border-color: black;
+    padding: 10px 10px 10px 10px;
+
+}
+.popup-box textarea{
+    background: transparent;
+    width: 100%;
+    color: black;
+    font-size: 20px;
+    margin: 5px;
+    padding: 10px;
+    border: solid black 2px;
+
+}
+.popup-box input ::placeholder{
+    color: black;
+}
+.popup-box textarea ::placeholder{
+    color: black;
+}
+
+
